@@ -1,0 +1,390 @@
+* {
+    font-size: 12px;
+    padding: 0 ;
+    margin: 0;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.cl {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.top {
+    width: 100%;
+    background: url("../images/top_bg.jpg") repeat-x;
+    height: 27px;
+}
+.top_content {
+    width: 1000px;
+    min-width: 500px;
+    line-height: 27px;
+}
+.top_content ul li {
+    float: right;
+    width: 70px;
+    list-style-image: url("../images/li_bg.gif");
+}
+
+.top_content ul li a{
+    text-decoration: none;
+}
+
+.top_content ul a:link , .top_content ul a:visited{
+    color: #8E8E8E;
+}
+.top_content ul a:hover, .top_content ul a:active {
+    color: red;
+}
+/*顶部结束*/
+
+.logo {
+    height: 80px;
+    background-color: #ffffff;
+}
+.logo .logo_left {
+    width: 375px;
+    float: left;
+}
+.logo .logo_right {
+    float: right;
+    margin-top: 20px;
+    width: 300px;
+    height: 28px;
+}
+.logo_right img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.logo_right .tel {
+    font-family: "微软雅黑";
+    color: #c00;
+    font-size: 22px;
+}
+
+/*logo结束*/
+
+.nav {
+    height: 40px;
+    background: url("../images/nav_bg.jpg") repeat-x;
+}
+.nav_mid {
+    line-height: 40px;
+}
+
+
+.nav_mid ul li {
+    float: left;
+    /*display: inline;*/
+    list-style-type: none;
+    width: 100px;
+}
+.nav_mid a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.nav_mid_left,.nav_mid ,.nav_mid_right{
+    float: left;
+}
+.nav_mid_left {
+    margin: 0 10px;
+}
+.nav_mid_right {
+    margin-left: 30px;
+    margin-top: -3px;
+}
+.nav_mid_right input {
+    background: url("../images/search.jpg") no-repeat right;
+    background-color: #ffffff;
+    width: 190px;
+    height: 25px;
+
+
+}
+/*导航结束*/
+/*轮播开始*/
+.swiper-container {
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width: 1000px;
+    height: 300px;
+
+}
+
+
+/*轮播结束*/
+
+/*main开始*/
+.main {
+    height: 250px;
+    margin-top: 5px;
+}
+.news,.course,.media {
+    height: 250px;
+    float: left;
+    border: 1px solid #8E8E8E;
+
+}
+.main .news {
+    width: 340px;
+
+}
+.news .title,.course .title,.media .title {
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 2px solid #8E8E8E;
+}
+.news .title h2, .course .title h2 ,.media .title h2{
+    margin-left: 10px;
+}
+.news .title a,.course .title a,.media .title a{
+    color: #999;
+    /*text-decoration: none;*/
+    font-family: "宋体";
+    font-size: 10px;
+    font-weight: normal;
+    padding-right: 10px;
+}
+.news .pic_news , .course .pic_news{
+    margin-top: 10px;
+    line-height: 22px;
+}
+.course .pic_news img {
+    width: 158px;
+    height: 106px;
+}
+.news .pic_news img, .course .pic_news img{
+    float: left;
+    padding: 5px;
+}
+
+
+.news .pic_news a,.course .pic_news a{
+    color: #cc0000;
+}
+.news .list_news {
+    margin-top: 20px;
+}
+.news .list_news ul li {
+    list-style-type: none;
+    background: url("../images/list.jpg") no-repeat;
+    padding-left: 10px;
+    border-bottom: 1px dashed #8E8E8E;
+    margin: 7px;
+    height: 17px;
+    line-height: 17px;
+}
+.news .list_news span {
+    float: right;
+    color: #8E8E8E;
+}
+.course {
+    width: 410px;
+    margin: 0 7px;
+}
+.course .product_type{
+    width: 372px;
+    height: 37px;
+    margin: 20px auto;
+    background: url("../images/product_type_bg.jpg") repeat-x;
+
+}
+.course .product_type ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 37px;
+    /* width: 65px; */
+    text-align: center;
+    margin: 0 15px;
+}
+.media {
+    width: 230px;
+
+}
+.media .video_content {
+    height: 150px;
+    padding: 0 5px;
+}
+.media .service img {
+    padding: 0 5px 5px;
+}
+/*内容区完结*/
+.copyright {
+    clear: both;
+    width: 100%;
+    height: 200px;
+    background-color: #E8e8E8;
+    margin-top: 10px;
+}
+.copyright_content {
+    width: 1000px;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 20px
+}
+
+.copyright_content li {
+    float: right;
+    width: 200px;
+    text-align: center;
+    background: url("../images/line.png") no-repeat right center;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height: 30px;
+    color: #999;
+
+}
+.copyright_content li ul li {
+    font-size: 14px;
+}
+.care {
+    position: relative;
+    top: -10px;
+    font-size: 18px;
+}
+.elevator {
+    position: fixed;
+    padding: 0 16px;
+    top: 55%;
+    margin-top: -140px;
+    right: 0;
+    z-index: 899;
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgba(7, 17, 27, .1)
+}
+
+.elevator a {
+    display: block;
+    width: 26px;
+    padding: 16px 0;
+    font-size: 22px;
+    line-height: 20px;
+    color: #b5b9bc;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 1px solid #edf1f2
+}
+
+.elevator a:hover {
+    color: #14191e
+}
+
+.elevator a i {
+    font-size: 24px;
+    color: #d9dde1
+}
+
+.elevator a i:hover {
+    color: #14191e
+}
+/*为类选择器elevator 中的a下的span设置为不可见*/
+.elevator a span {
+    display: none;
+    font-size: 12px;
+    color: #07111b;
+    line-height: 14px
+}
+
+.elevator .no-goto {
+    border-bottom: none
+}
+/*这个是使用背景图片制作而成，i是行内元素 不可以之间设置高度*/
+.elevator .elevator-dist i {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url("../images/redPacket.png")  no-repeat;
+    background-size: 100% 100%;
+    background-position: top center;
+    margin: 2px 0
+}
+/*只要我把鼠标放在a标签里 i就变得不可见，span变的可见*/
+/*鼠标移开回到最初的状态 也就是i显示 span不可见*/
+.elevator .elevator-app:hover i, .elevator .elevator-dist:hover i, .elevator .elevator-faq:hover i, .elevator .elevator-msg:hover i, .elevator .elevator-top:hover i, .elevator .elevator-weixin:hover i {
+    display: none
+}
+
+.elevator .elevator-app:hover span, .elevator .elevator-dist:hover span, .elevator .elevator-faq:hover span, .elevator .elevator-msg:hover span, .elevator .elevator-top:hover span, .elevator .elevator-weixin:hover span {
+    display: inline-block
+}
+
+.elevator .elevator-app-box {
+    position: absolute;
+    width: 172px;
+    height: 212px;
+    bottom: -2px;
+    right: 56px;
+    -webkit-transition: opacity .25s, transform .3s;
+    -moz-transition: opacity .25s, transform .3s;
+    transition: opacity .25s, transform .3s;
+    opacity: 0;
+    max-width: 0;
+    -webkit-transform: scale(.01);
+    -ms-transform: scale(.01);
+    transform: scale(.01);
+    -webkit-transform-origin: 100% 95%;
+    -ms-transform-origin: 100% 95%;
+    transform-origin: 100% 95%;
+    background: url("../images/elevator.png") no-repeat 0 -220px
+}
+
+.elevator .elevator-app:hover .elevator-app-box {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    max-width: none;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.elevator .elevator-weixin-box {
+    position: absolute;
+    width: 172px;
+    height: 212px;
+    bottom: -4px;
+    right: 56px;
+    -webkit-transition: opacity .25s, transform .3s;
+    -moz-transition: opacity .25s, transform .3s;
+    transition: opacity .25s, transform .3s;
+    opacity: 0;
+    max-width: 0;
+    -webkit-transform: scale(.01);
+    -ms-transform: scale(.01);
+    transform: scale(.01);
+    -webkit-transform-origin: 100% 95%;
+    -ms-transform-origin: 100% 95%;
+    transform-origin: 100% 95%;
+    background: url("../images/elevator.png") no-repeat 0 0
+}
+
+.elevator .elevator-weixin:hover .elevator-weixin-box {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    max-width: none;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+
+
+
